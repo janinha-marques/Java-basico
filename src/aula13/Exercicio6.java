@@ -9,6 +9,5 @@ public class Exercicio6 {
             float raio = scanner.nextFloat();
             double area = Math.PI * raio * raio;
             System.out.println("A área do círculo é: " + area);
-
         }
 }

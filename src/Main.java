@@ -43,7 +43,6 @@ public class Main {
         System.out.println("1 - Reserva");
         System.out.println("2 - Consultar cardápio");
         System.out.println("0 - Encerrar programa");
-        opcaoEscolhida = scanner.netxInt();
     }
     static void imprimirCardapio(){
 
@@ -74,12 +73,12 @@ public class Main {
 
 
 
-        List<String> categorias = list.of("Massas," "Bebidas", "Pizzas", "Sobremesas", "Aperitoivos", "Risotos", "Vinhos");
+        List<String> categorias = List.of("Massas","Bebidas", "Pizzas", "Sobremesas", "Aperitoivos", "Risotos", "Vinhos");
 
         System.out.println("Categorias");
-        for (Int pos = 0; pos < categorias.size(); pos++) {
+        for (int pos = 0; pos < categorias.size(); pos++) {
             System.out.println(categorias.get(pos));
-                }
+        }
 
        /* System.out.println(categorias.get(0));
         System.out.println(categorias.get(1));
@@ -88,7 +87,5 @@ public class Main {
         System.out.println(categorias.get(4));*/
 
         }
-
-    }
 
     }

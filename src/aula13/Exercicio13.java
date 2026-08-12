@@ -25,7 +25,7 @@ public class Exercicio13 {
 
             if (peso == pesoIdeal) {
                 System.out.println("Voce erstá dentro do s3eu peso ideal!");
-            }  eslse if (peso < pesoIdeal) {
+            }  else if (peso < pesoIdeal) {
             System.out.println(" Voce est5a a baixo do peso ideal!");
         } else {
                 System.out.println("Você está acima do peso ideal.");

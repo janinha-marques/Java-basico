@@ -8,11 +8,10 @@ public class Exercicio7 {
 
         System.out.println("Informe o número do lado a: ");
         double a = scanner.nextDouble();
-        System.out.println("Informe o lado b: ");
+        System.out.println("Informe o número do lado b: ");
         double b = scanner.nextDouble();
         double area = a * b;
         System.out.println("a área é de: " + area + "cm²");
-
 
     }
 }

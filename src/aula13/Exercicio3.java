@@ -6,6 +6,7 @@ public class Exercicio3 {
     public static void main(String[]args ){
 
     Scanner scanner = new Scanner(System.in);
+
     System.out.println("Escreva o primeiro número: ");
     float numero1 = scanner.nextFloat();
 
@@ -14,5 +15,5 @@ public class Exercicio3 {
 
     float soma = numero1 +numero2;
     System.out.println("O resultado da soma é: " + soma);
-}
+    }
 }
